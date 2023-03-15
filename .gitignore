@@ -2,10 +2,36 @@
 env.json
 test.js
 
-node_modules/**/*.md
-node_modules/**/*.markdown
-node_modules/**/example/
-node_modules/**/test/
+node_modules/
+src/mainapp.js.map
+app.js
+app.js.map
+src/containerclasses.js
+src/containerclasses.js.map
+src/flowandtokenhandler.js
+src/flowandtokenhandler.js.map
+src/mainapp.js
+src/settings.js
+src/settings.js.map
+src/SunWrapper.js
+src/SunWrapper.js.map
+src/triggerhandler.js
+src/triggerhandler.js.map
+src/CommonContainerClasses.js
+src/CommonContainerClasses.js.map
+src/SettingsPersistance.js
+src/SettingsPersistance.js.map
+example settings.json
+test.ts
+
+settings-src/node_modules
+settings-src/src/websettings.js
+settings-src/src/websettings.js.map
+settings-src/src/CommonContainerClasses.js.map
+settings-src/src/CommonContainerClasses.js
+settings-src/src/SettingsPersistance.js
+settings-src/src/SettingsPersistance.js.map
+Settings.v2.json
 
 # Windows image file caches
 Thumbs.db
@@ -54,3 +80,24 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+settings/*
+
+# Added by Homey CLI
+/.homeybuild/
+test settings.json
